@@ -86,4 +86,17 @@ mediaRouter.delete("/:id", async(req, res, next) => {
   }
 })
 
+//*********   Reviews   ******************
+
+//--- Post comment ---
+
+mediaRouter.post("/:id/reviews", async(req, res, next) => {
+
+
+})
+//--- Delete comment ---
+
+mediaRouter.delete("/:id/reviews", async(req, res, next)=>{
+
+})
 export default mediaRouter;
